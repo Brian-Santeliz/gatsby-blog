@@ -1,0 +1,178 @@
+/**
+ * prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML
+ * Based on https://github.com/chriskempson/tomorrow-theme
+ * @author Rose Pritchard
+ */
+
+ code[class*="language-"],
+ pre[class*="language-"] {
+     border-radius:1em;
+     color: #ccc;
+     background: none;
+     font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+     font-size: 1em;
+     text-align: left;
+     white-space: pre;
+     word-spacing: normal;
+     word-break: normal;
+     word-wrap: normal;
+     line-height: 1.5;
+
+     -moz-tab-size: 4;
+     -o-tab-size: 4;
+     tab-size: 4;
+ 
+     -webkit-hyphens: none;
+     -moz-hyphens: none;
+     -ms-hyphens: none;
+     hyphens: none;
+ 
+ }
+ 
+ /* Code blocks */
+ pre[class*="language-"] {
+     padding: 1em;
+     margin: .5em 0;
+     overflow: auto;
+ }
+ 
+ :not(pre) > code[class*="language-"],
+ pre[class*="language-"] {
+     background: rgb(1,22,39);
+     box-shadow:rgba(0, 0, 0, 0.55) 0 8px 16px;
+
+ }
+ 
+ /* Inline code */
+ :not(pre) > code[class*="language-"] {
+     padding: .1em;
+     border-radius: .3em;
+     white-space: normal;
+ }
+ 
+ .token.comment,
+ .token.block-comment,
+ .token.prolog,
+ .token.doctype,
+ .token.cdata {
+     color: #999;
+ }
+ 
+ .token.punctuation {
+     color: #ccc;
+ }
+ 
+ .token.tag,
+ .token.namespace,
+ .token.deleted {
+     color: #ff477e;
+ }
+ 
+ .token.function-name {
+     color: #6196cc;
+ }
+ 
+ .token.boolean,
+ .token.number,
+ .token.function {
+     color: #f08d49;
+ }
+ 
+ .token.property{
+    color:#f5df63
+ }
+ .token.class-name,
+ .token.constant,
+ .token.symbol {
+     color: #e0ca1d;;
+ }
+ 
+ .token.important,
+ .token.atrule,
+ .token.builtin {
+     color: #cc99cd;
+ }
+ .token.attr-name,
+ .token.keyword{
+    color: #ca78e1;
+
+ }
+ .token.selector,
+ .token.attr-value,
+ .token.string{
+     color:#39be6b;
+ }
+ .token.char,
+ .token.regex,
+ .token.variable {
+     color: #7ec699;
+ }
+ 
+ .token.operator,
+ .token.entity,
+ .token.url {
+     color: #67cdcc;
+ }
+ 
+ .token.important,
+ .token.bold {
+     font-weight: bold;
+ }
+ .token.italic {
+     font-style: italic;
+ }
+ 
+ .token.entity {
+     cursor: help;
+ }
+ 
+ .token.inserted {
+     color: green;
+ }
+ 
+
+  /* ESTILOS DE CARBON */
+
+
+
+  /* BACKGROUND  #282a36); */
+
+  /*
+  PALABRAS RESERVADAS
+  NOMBRE DE CLASES
+  operadores
+  const , let, if, return 
+  class="ES ESTE COLOR"
+   #ff79c6); */
+
+
+
+  /*
+  #
+  /*
+  functiones propiedades#50fa7b);
+  color: var(--deckgo-highlight-code-token-function, #ffb86c); */
+
+
+  /*
+  propiedades del html class palñabra de clase y selecto de html, string
+  'ejemplo' class atr href, .claseSelector
+  #50fa7b */
+
+  /*
+    color de etiquetas,
+    propiedades de css 
+    <a> <font-size>
+    numeros, booleanos
+   #bd93f9) */
+
+    /* 
+    (), {}, "", , .
+    #6272a4 */
+
+    /* texto: #fff */
+
+    /* 
+      font-family:  monospace
+    */
+    

@@ -8,6 +8,7 @@
     "url": "https://github.com/W3Layouts/gatsby-starter-delog/issues"
   },
   "dependencies": {
+    "@deckdeckgo/highlight-code": "^2.1.0",
     "gatsby": "^2.21.0",
     "gatsby-plugin-dark-mode": "^1.1.1",
     "gatsby-plugin-google-analytics": "^2.1.36",
@@ -18,6 +19,8 @@
     "gatsby-plugin-sass": "^2.1.28",
     "gatsby-plugin-sitemap": "^2.4.0",
     "gatsby-remark-emojis": "^0.4.2",
+    "gatsby-remark-highlight-code": "^2.1.0",
+    "gatsby-remark-highlights": "^1.3.4",
     "gatsby-remark-prismjs": "^3.3.31",
     "gatsby-source-filesystem": "^2.1.48",
     "gatsby-transformer-remark": "^2.6.53",

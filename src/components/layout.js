@@ -1,8 +1,7 @@
 import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import Navigation from "../components/navigation"
-import 'prismjs/themes/prism-okaidia.css';
-
+// import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader'deckDeckGoHighlightElement()
 export default ({ children }) => {
   const data = useStaticQuery(
     graphql`
@@ -25,7 +24,7 @@ export default ({ children }) => {
       </header>
       {children}
       <footer className="site-footer">
-        <p>&copy; {new Date().getFullYear()} Delog &bull; Crafted with <span role="img" aria-label="love">❤️</span> by <a href="https://w3layouts.com">W3Layouts</a></p>
+        <p>&copy; {new Date().getFullYear()} Brian Santeliz &bull; Crafted with <span role="img" aria-label="love">❤️</span> by <a href="https://w3layouts.com">W3Layouts</a></p>
       </footer>
     </div>
   )
